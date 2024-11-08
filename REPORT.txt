@@ -1,0 +1,17 @@
+adf8a9ac313f64fbde714c4b9a3f0b1f  part1-output
+cce4943ba629ec9017ccf12d43e1dcdf  part2-output
+Total number of page faults: 0
+
+ATTEMPTED PART3.C:
+The implementation of part3.c is different because it:
+
+    Handles variable configurations by accepting page size, virtual memory size, and physical memory size as input.
+    Uses dynamic memory allocation for the page table and frame structures to support various configurations.
+    Generalizes address translation logic to adapt to variable page sizes.
+    Implements a reconfigurable page replacement policy that adjusts based on the provided memory sizes.
+
+These changes make part3.c more flexible and capable of adapting to a variety of memory configurations, 
+but they also increase the complexity of the implementation compared to the fixed-parameter approaches in Parts 1 and 2.
+
+The goal of part3.c is to be configurable yet produce the same output as part2.c when given the same memory parameters. 
+In other words, when part3.c is run with the exact memory configuration as part2.c (128 bytes per page, 1K physical memory, 4K virtual memory), it should behave identically to part2.c and yield the same output.
