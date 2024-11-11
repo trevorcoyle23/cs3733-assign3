@@ -1,7 +1,12 @@
 # Compiling
-`make` ==> `part1*` `part2*` `part3*`
+`make`
+<ul>
+  <li>part1*</li>
+  <li>part2*</li>
+  <li>part3*</li>
+</ul>
 
 # Usage
-`./part1 <<i>inFile</i>> <<i>outFile</i>>`
-`./part2 <<i>inFile</i>> <<i>outFile</i>>`
-`./part3 <BytesPerPage> <SizeOfVirtualMemory> <SizeOfPhysicalMemory> <<i>inFile</i>> <<i>outFile<i>>`
+`./part1 <inFile> <outFile>`
+`./part2 <inFile> <outFile>`
+`./part3 <BytesPerPage> <SizeOfVirtualMemory> <SizeOfPhysicalMemory> <inFile> <outFile>`
