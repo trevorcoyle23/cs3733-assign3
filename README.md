@@ -4,4 +4,4 @@
 # Usage
 `./part1 <<i>inFile</i>> <<i>outFile</i>>`
 `./part2 <<i>inFile</i>> <<i>outFile</i>>`
-`./part3 <BytesPerPage> <SizeOfVirtualMemory> <SizeOfPhysicalMemory> <<i>inFile</i>> <<i>outFile</i>>`
+`./part3 <BytesPerPage> <SizeOfVirtualMemory> <SizeOfPhysicalMemory> <<i>inFile</i>> <<i>outFile<i>>`
